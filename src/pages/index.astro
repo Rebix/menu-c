@@ -1,11 +1,58 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro"
+import "../styles/global.css"
+import type { Category } from "../types"
+import MenuItem from "../components/MenuItem.astro"
+import menu from "../data/menu.json"
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const MENU: Category[] = menu
 ---
 
 <Layout>
-	<Welcome />
+  <nav class="flex gap-x-4 items-center border border-gray-400 m-4 p-4 rounded-lg overflow-x-auto">
+    {MENU.map((category, idx) => (
+      <div
+        data-category-tab={category.id}
+        class:list={[
+          "flex flex-col items-center shrink-0",
+          idx === 0 && "active",
+        ]}
+      >
+        <img src="" height="64px" width="64px" class="w-16 h-16" />
+        <div class="text-sm text-gray-900">{category.title}</div>
+      </div>
+    ))}
+  </nav>
+  <section>
+    {MENU.map((category, idx) => (
+      <div
+        data-category-items={category.id}
+        hidden={idx !== 0}
+        class="grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-4 grid"
+      >
+        {category.items.map((item) => (
+          <MenuItem item={item} />
+        ))}
+      </div>
+    ))}
+  </section>
 </Layout>
+
+<script>
+  const tabs = document.querySelectorAll<HTMLElement>("[data-category-tab]")
+  const items = document.querySelectorAll<HTMLElement>("[data-category-items]")
+
+  tabs?.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      const selected = tab.dataset.categoryTab
+
+      tabs.forEach((tab) => {
+        tab.classList.toggle("active", tab.dataset.categoryTab === selected)
+      })
+
+      items.forEach((item) => {
+        item.hidden = item.dataset.categoryItems !== selected
+      })
+    })
+  })
+</script>

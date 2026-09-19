@@ -1,0 +1,30 @@
+---
+import type { MenuItemData } from "../types"
+import Toman from "./Toman.astro"
+
+interface Props {
+  item: MenuItemData
+}
+
+const { item } = Astro.props
+---
+
+<div class="border border-gray-400 rounded-lg items-start p-4 flex gap-x-2">
+  <div class="w-24 h-24 shrink-0">
+    <img height="96px" width="96px" />
+  </div>
+  <div class="grow">
+    <div class="font-bold mb-4">{item.title_fa}</div>
+    <div class="mb-4 text-sm">
+      {item.variants.map((variant) => (
+        <div class="flex justify-between">
+          <div class="flex">
+            {variant.title} {variant.price} <Toman class="mr-0.5" />
+          </div>
+          <div class="text-xs text-gray-600">{variant.calerios} کالری</div>
+        </div>
+      ))}
+    </div>
+    <div class="text-xs text-gray-800">محتویات: {item.ingredient}</div>
+  </div>
+</div>

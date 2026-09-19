@@ -1,0 +1,18 @@
+---
+interface Props {
+  class?: string
+  size?: number
+}
+
+const { size = 16, class: className } = Astro.props
+---
+
+<svg
+  width={size}
+  height={size}
+  class={className}
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <use href="#toman" />
+</svg>
