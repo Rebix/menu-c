@@ -10,6 +10,7 @@
 
 @theme {
   --font-sans: "Gandom", Tahoma, Arial, sans-serif;
+  --color-bg: #f0f0f0;
 }
 
 html,
