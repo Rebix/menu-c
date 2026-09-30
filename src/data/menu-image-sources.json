@@ -1,0 +1,218 @@
+{
+  "source_page": "https://lamizcoffee.com/lamiz-coffee-menu/",
+  "retrieved_on": "2026-09-30",
+  "items": [
+    {
+      "menu_title": "اسپرسو ۱۰۰٪ روبوستا",
+      "lamiz_title_fa": "اسپرسو",
+      "lamiz_title_en": "Espresso",
+      "match": "drink-family",
+      "note": "Shared espresso photo; Lamiz does not list the cafe blend ratios or special line.",
+      "source_url": "https://lamizcoffee.com/wp-content/uploads/2023/06/ESPRESSO-LAMIZ.webp",
+      "local_path": "/images/menu/espresso.webp"
+    },
+    {
+      "menu_title": "اسپرسو ۷۰/۳۰٪ روبوستا",
+      "lamiz_title_fa": "اسپرسو",
+      "lamiz_title_en": "Espresso",
+      "match": "drink-family",
+      "note": "Shared espresso photo; Lamiz does not list the cafe blend ratios or special line.",
+      "source_url": "https://lamizcoffee.com/wp-content/uploads/2023/06/ESPRESSO-LAMIZ.webp",
+      "local_path": "/images/menu/espresso.webp"
+    },
+    {
+      "menu_title": "اسپرسو ۵۰/۵۰٪",
+      "lamiz_title_fa": "اسپرسو",
+      "lamiz_title_en": "Espresso",
+      "match": "drink-family",
+      "note": "Shared espresso photo; Lamiz does not list the cafe blend ratios or special line.",
+      "source_url": "https://lamizcoffee.com/wp-content/uploads/2023/06/ESPRESSO-LAMIZ.webp",
+      "local_path": "/images/menu/espresso.webp"
+    },
+    {
+      "menu_title": "اسپرسو ۱۰۰٪ عربیکا",
+      "lamiz_title_fa": "اسپرسو",
+      "lamiz_title_en": "Espresso",
+      "match": "drink-family",
+      "note": "Shared espresso photo; Lamiz does not list the cafe blend ratios or special line.",
+      "source_url": "https://lamizcoffee.com/wp-content/uploads/2023/06/ESPRESSO-LAMIZ.webp",
+      "local_path": "/images/menu/espresso.webp"
+    },
+    {
+      "menu_title": "اسپرسو لاین ویژه",
+      "lamiz_title_fa": "اسپرسو",
+      "lamiz_title_en": "Espresso",
+      "match": "drink-family",
+      "note": "Shared espresso photo; Lamiz does not list the cafe blend ratios or special line.",
+      "source_url": "https://lamizcoffee.com/wp-content/uploads/2023/06/ESPRESSO-LAMIZ.webp",
+      "local_path": "/images/menu/espresso.webp"
+    },
+    {
+      "menu_title": "لاته",
+      "lamiz_title_fa": "کافه لاته",
+      "lamiz_title_en": "LATTE",
+      "match": "equivalent",
+      "note": "",
+      "source_url": "https://lamizcoffee.com/wp-content/uploads/2023/06/LATTE-LAMIZ.webp",
+      "local_path": "/images/menu/latte.webp"
+    },
+    {
+      "menu_title": "کاپوچینو",
+      "lamiz_title_fa": "کپوچینو",
+      "lamiz_title_en": "CAPPUCCINO",
+      "match": "equivalent",
+      "note": "Lamiz uses the spelling کپوچینو.",
+      "source_url": "https://lamizcoffee.com/wp-content/uploads/2023/06/CAPPUCCINO-LAMIZ.webp",
+      "local_path": "/images/menu/cappuccino.webp"
+    },
+    {
+      "menu_title": "آمریکانو",
+      "lamiz_title_fa": "آمریکانو",
+      "lamiz_title_en": "AMERICANO",
+      "match": "exact",
+      "note": "",
+      "source_url": "https://lamizcoffee.com/wp-content/uploads/2023/06/AMERICANO-LAMIZ.webp",
+      "local_path": "/images/menu/americano.webp"
+    },
+    {
+      "menu_title": "قهوه فرانسه",
+      "lamiz_title_fa": "قهوه دمی",
+      "lamiz_title_en": "Daily Brew",
+      "match": "related",
+      "note": "Related brewed coffee image. Lamiz specifies machine-brewed coffee, not French press.",
+      "source_url": "https://lamizcoffee.com/wp-content/uploads/2023/06/DAILY-BREW-LAMIZ.webp",
+      "local_path": "/images/menu/daily-brew.webp"
+    },
+    {
+      "menu_title": "موکا",
+      "lamiz_title_fa": "کافه موکا",
+      "lamiz_title_en": "MOCHA",
+      "match": "equivalent",
+      "note": "",
+      "source_url": "https://lamizcoffee.com/wp-content/uploads/2023/06/MOCHA-LAMIZ.webp",
+      "local_path": "/images/menu/mocha.webp"
+    },
+    {
+      "menu_title": "کارامل ماکیاتو",
+      "lamiz_title_fa": "کارامل ماکیاتو",
+      "lamiz_title_en": "CARAMEL MACCHIATO",
+      "match": "exact",
+      "note": "",
+      "source_url": "https://lamizcoffee.com/wp-content/uploads/2023/06/CARAMEL-MACCHIATO-LAMIZ.webp",
+      "local_path": "/images/menu/caramel-macchiato.webp"
+    },
+    {
+      "menu_title": "هات چاکلت",
+      "lamiz_title_fa": "شکلات گرم",
+      "lamiz_title_en": "HOT CHOCOLATE",
+      "match": "equivalent",
+      "note": "",
+      "source_url": "https://lamizcoffee.com/wp-content/uploads/2023/06/HOT-CHOCOLATE​-LAMIZ.webp",
+      "local_path": "/images/menu/hot-chocolate.webp"
+    },
+    {
+      "menu_title": "ماسالا",
+      "lamiz_title_fa": "ماسالا",
+      "lamiz_title_en": "MASALA",
+      "match": "exact",
+      "note": "Page title is ماسالا; image filename and alt text say Chai Latte.",
+      "source_url": "https://lamizcoffee.com/wp-content/uploads/2023/06/CHAI-LATTE-LAMIZ.webp",
+      "local_path": "/images/menu/masala.webp"
+    },
+    {
+      "menu_title": "هات چاکلت فندقی",
+      "lamiz_title_fa": null,
+      "lamiz_title_en": null,
+      "match": "unmatched",
+      "note": "No matching drink entry on the supplied Lamiz menu page.",
+      "source_url": null,
+      "local_path": null
+    },
+    {
+      "menu_title": "قهوه ترک",
+      "lamiz_title_fa": null,
+      "lamiz_title_en": null,
+      "match": "unmatched",
+      "note": "No matching drink entry on the supplied Lamiz menu page.",
+      "source_url": null,
+      "local_path": null
+    },
+    {
+      "menu_title": "آیس لاته",
+      "lamiz_title_fa": "کافه لاته سرد",
+      "lamiz_title_en": "ICED LATTE",
+      "match": "equivalent",
+      "note": "",
+      "source_url": "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-LATTE-LAMIZ.webp",
+      "local_path": "/images/menu/iced-latte.webp"
+    },
+    {
+      "menu_title": "آیس آمریکانو",
+      "lamiz_title_fa": "آمریکانو سرد",
+      "lamiz_title_en": "ICED AMERICANO",
+      "match": "equivalent",
+      "note": "",
+      "source_url": "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-AMERICANO-LAMIZ.webp",
+      "local_path": "/images/menu/iced-americano.webp"
+    },
+    {
+      "menu_title": "آیس موکا",
+      "lamiz_title_fa": "کافه موکا سرد",
+      "lamiz_title_en": "ICED MOCHA",
+      "match": "equivalent",
+      "note": "",
+      "source_url": "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-MOCHA-LAMIZ.webp",
+      "local_path": "/images/menu/iced-mocha.webp"
+    },
+    {
+      "menu_title": "آیس کارامل",
+      "lamiz_title_fa": "کارامل ماکیاتو سرد",
+      "lamiz_title_en": "ICED CARAMEL MACCHIATO",
+      "match": "assumed",
+      "note": "Assumes آیس کارامل means iced caramel macchiato; confirm the cafe recipe.",
+      "source_url": "https://lamizcoffee.com/wp-content/uploads/2023/06/ICED-CARAMEL-MACCHIATO-LAMIZ.webp",
+      "local_path": "/images/menu/iced-caramel-macchiato.webp"
+    },
+    {
+      "menu_title": "چای کرک",
+      "lamiz_title_fa": null,
+      "lamiz_title_en": null,
+      "match": "unmatched",
+      "note": "No matching drink entry on the supplied Lamiz menu page.",
+      "source_url": null,
+      "local_path": null
+    },
+    {
+      "menu_title": "چای ترش",
+      "lamiz_title_fa": "دمنوش دم آشام ترش",
+      "lamiz_title_en": "Berry Hibiscus Sip",
+      "match": "related",
+      "note": "Contains hibiscus plus fruit and quince tea; not plain hibiscus tea.",
+      "source_url": "https://lamizcoffee.com/wp-content/uploads/2024/02/berry-sour-sip.webp",
+      "local_path": "/images/menu/berry-hibiscus.webp"
+    },
+    {
+      "menu_title": "دم نوش چای سبز",
+      "lamiz_title_fa": "چای سبز",
+      "lamiz_title_en": "green tea",
+      "match": "equivalent",
+      "note": "",
+      "source_url": "https://lamizcoffee.com/wp-content/uploads/2024/02/green-tea-1.webp",
+      "local_path": "/images/menu/green-tea.webp"
+    },
+    {
+      "menu_title": "چای سیاه",
+      "lamiz_title_fa": "چای سیاه لمیز",
+      "lamiz_title_en": "black tea",
+      "match": "equivalent",
+      "note": "",
+      "source_url": "https://lamizcoffee.com/wp-content/uploads/2024/02/BLACK-TEA-LAMIZ.webp",
+      "local_path": "/images/menu/black-tea.webp"
+    }
+  ],
+  "category_images": {
+    "1": "/images/menu/espresso.webp",
+    "2": "/images/menu/iced-latte.webp",
+    "3": "/images/menu/black-tea.webp"
+  }
+}

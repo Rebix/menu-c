@@ -2,12 +2,12 @@
   {
     "id": 1,
     "title": "نوشیدنی گرم",
-    "image": "",
+    "image": "/images/menu/espresso.webp",
     "items": [
       {
         "title_fa": "اسپرسو ۱۰۰٪ روبوستا",
         "title_en": "",
-        "image": "",
+        "image": "/images/menu/espresso.webp",
         "variants": [
           {
             "title": "تک شات",
@@ -15,7 +15,7 @@
             "calerios": 1
           },
           {
-            "title": "دابل شات",
+            "title": "دوبل شات",
             "price": 110,
             "calerios": 2
           }
@@ -25,7 +25,7 @@
       {
         "title_fa": "اسپرسو ۷۰/۳۰٪ روبوستا",
         "title_en": "",
-        "image": "",
+        "image": "/images/menu/espresso.webp",
         "variants": [
           {
             "title": "تک شات",
@@ -33,7 +33,7 @@
             "calerios": 1
           },
           {
-            "title": "دابل شات",
+            "title": "دوبل شات",
             "price": 130,
             "calerios": 2
           }
@@ -43,7 +43,7 @@
       {
         "title_fa": "اسپرسو ۵۰/۵۰٪",
         "title_en": "",
-        "image": "",
+        "image": "/images/menu/espresso.webp",
         "variants": [
           {
             "title": "تک شات",
@@ -51,7 +51,7 @@
             "calerios": 1
           },
           {
-            "title": "دابل شات",
+            "title": "دوبل شات",
             "price": 140,
             "calerios": 2
           }
@@ -61,7 +61,7 @@
       {
         "title_fa": "اسپرسو ۱۰۰٪ عربیکا",
         "title_en": "",
-        "image": "",
+        "image": "/images/menu/espresso.webp",
         "variants": [
           {
             "title": "تک شات",
@@ -69,7 +69,7 @@
             "calerios": 1
           },
           {
-            "title": "دابل شات",
+            "title": "دوبل شات",
             "price": 190,
             "calerios": 2
           }
@@ -79,10 +79,10 @@
       {
         "title_fa": "اسپرسو لاین ویژه",
         "title_en": "",
-        "image": "",
+        "image": "/images/menu/espresso.webp",
         "variants": [
           {
-            "title": "دابل شات",
+            "title": "دوبل شات",
             "price": 220,
             "calerios": 2
           }
@@ -92,7 +92,7 @@
       {
         "title_fa": "لاته",
         "title_en": "",
-        "image": "",
+        "image": "/images/menu/latte.webp",
         "variants": [
           {
             "title": "",
@@ -105,7 +105,7 @@
       {
         "title_fa": "کاپوچینو",
         "title_en": "",
-        "image": "",
+        "image": "/images/menu/cappuccino.webp",
         "variants": [
           {
             "title": "",
@@ -118,7 +118,7 @@
       {
         "title_fa": "آمریکانو",
         "title_en": "",
-        "image": "",
+        "image": "/images/menu/americano.webp",
         "variants": [
           {
             "title": "",
@@ -131,7 +131,7 @@
       {
         "title_fa": "قهوه فرانسه",
         "title_en": "",
-        "image": "",
+        "image": "/images/menu/daily-brew.webp",
         "variants": [
           {
             "title": "",
@@ -144,7 +144,7 @@
       {
         "title_fa": "موکا",
         "title_en": "",
-        "image": "",
+        "image": "/images/menu/mocha.webp",
         "variants": [
           {
             "title": "",
@@ -157,7 +157,7 @@
       {
         "title_fa": "کارامل ماکیاتو",
         "title_en": "",
-        "image": "",
+        "image": "/images/menu/caramel-macchiato.webp",
         "variants": [
           {
             "title": "",
@@ -170,7 +170,7 @@
       {
         "title_fa": "هات چاکلت",
         "title_en": "",
-        "image": "",
+        "image": "/images/menu/hot-chocolate.webp",
         "variants": [
           {
             "title": "",
@@ -183,7 +183,7 @@
       {
         "title_fa": "ماسالا",
         "title_en": "",
-        "image": "",
+        "image": "/images/menu/masala.webp",
         "variants": [
           {
             "title": "",
@@ -224,12 +224,12 @@
   {
     "id": 2,
     "title": "نوشیدنی سرد",
-    "image": "",
+    "image": "/images/menu/iced-latte.webp",
     "items": [
       {
         "title_fa": "آیس لاته",
         "title_en": "",
-        "image": "",
+        "image": "/images/menu/iced-latte.webp",
         "variants": [
           {
             "title": "",
@@ -242,7 +242,7 @@
       {
         "title_fa": "آیس آمریکانو",
         "title_en": "",
-        "image": "",
+        "image": "/images/menu/iced-americano.webp",
         "variants": [
           {
             "title": "",
@@ -255,7 +255,7 @@
       {
         "title_fa": "آیس موکا",
         "title_en": "",
-        "image": "",
+        "image": "/images/menu/iced-mocha.webp",
         "variants": [
           {
             "title": "",
@@ -268,7 +268,7 @@
       {
         "title_fa": "آیس کارامل",
         "title_en": "",
-        "image": "",
+        "image": "/images/menu/iced-caramel-macchiato.webp",
         "variants": [
           {
             "title": "",
@@ -283,7 +283,7 @@
   {
     "id": 3,
     "title": "چای و دمنوش",
-    "image": "",
+    "image": "/images/menu/black-tea.webp",
     "items": [
       {
         "title_fa": "چای کرک",
@@ -301,7 +301,7 @@
       {
         "title_fa": "چای ترش",
         "title_en": "",
-        "image": "",
+        "image": "/images/menu/berry-hibiscus.webp",
         "variants": [
           {
             "title": "",
@@ -314,7 +314,7 @@
       {
         "title_fa": "دم نوش چای سبز",
         "title_en": "",
-        "image": "",
+        "image": "/images/menu/green-tea.webp",
         "variants": [
           {
             "title": "",
@@ -327,7 +327,7 @@
       {
         "title_fa": "چای سیاه",
         "title_en": "",
-        "image": "",
+        "image": "/images/menu/black-tea.webp",
         "variants": [
           {
             "title": "",

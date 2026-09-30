@@ -7,21 +7,36 @@ interface Props {
 }
 
 const { item } = Astro.props
+const imageSrc = item.image?.replace(".webp", "-96.webp")
+const imageSrcSet = item.image
+  ? `${imageSrc} 1x, ${item.image.replace(".webp", "-192.webp")} 2x`
+  : undefined
 ---
 
 <div class="border border-gray-400 rounded-lg items-start p-4 flex gap-x-2">
-  <div class="w-24 h-24 shrink-0">
-    <img height="96px" width="96px" />
-  </div>
+  {item.image && (
+    <div class="w-24 h-24 shrink-0">
+      <img
+        src={imageSrc}
+        srcset={imageSrcSet}
+        alt={item.title_fa}
+        width={96}
+        height={96}
+        loading="lazy"
+        decoding="async"
+        class="w-full h-full object-contain rounded-lg"
+      />
+    </div>
+  )}
   <div class="grow">
     <div class="font-bold mb-4">{item.title_fa}</div>
     <div class="mb-4 text-sm">
       {item.variants.map((variant) => (
-        <div class="flex justify-between">
+        <div class="">
           <div class="flex">
-            {variant.title} {variant.price} <Toman class="mr-0.5" />
+            {variant.title} <span class="font-bold mr-1">{variant.price}</span>
+            <Toman class="mr-0.5" />
           </div>
-          <div class="text-xs text-gray-600">{variant.calerios} کالری</div>
         </div>
       ))}
     </div>

@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Gandom";
+  src: url("/fonts/gandom/v0.8/Gandom.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: "Gandom", Tahoma, Arial, sans-serif;
+}

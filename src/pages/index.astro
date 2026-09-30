@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro"
-import "../styles/global.css"
 import type { Category } from "../types"
 import MenuItem from "../components/MenuItem.astro"
 import menu from "../data/menu.json"
@@ -18,7 +17,15 @@ const MENU: Category[] = menu
           idx === 0 && "active",
         ]}
       >
-        <img src="" height="64px" width="64px" class="w-16 h-16" />
+        <img
+          src={category.image.replace(".webp", "-64.webp")}
+          srcset={`${category.image.replace(".webp", "-64.webp")} 1x, ${category.image.replace(".webp", "-128.webp")} 2x`}
+          alt=""
+          height={64}
+          width={64}
+          class="w-16 h-16 object-contain"
+          decoding="async"
+        />
         <div class="text-sm text-gray-900">{category.title}</div>
       </div>
     ))}
