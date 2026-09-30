@@ -8,12 +8,18 @@ const MENU: Category[] = menu
 ---
 
 <Layout>
-  <nav class="flex gap-x-4 items-center border border-gray-400 m-4 p-4 rounded-lg overflow-x-auto">
+  <nav
+    class:list={[
+      "flex gap-x-4 items-center p-2 mb-2 overflow-x-auto",
+      "border-b border-gray-300",
+    ]}
+  >
     {MENU.map((category, idx) => (
       <div
         data-category-tab={category.id}
         class:list={[
           "flex flex-col items-center shrink-0",
+          "rounded-lg m-2 p-2",
           idx === 0 && "active",
         ]}
       >

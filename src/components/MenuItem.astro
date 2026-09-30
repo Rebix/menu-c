@@ -14,7 +14,7 @@ const imageSrcSet = item.image
 ---
 
 <div class="border border-gray-400 rounded-lg items-start p-4 flex gap-x-2">
-  {item.image && (
+  {item.image ? (
     <div class="w-24 h-24 shrink-0">
       <img
         src={imageSrc}
@@ -27,6 +27,8 @@ const imageSrcSet = item.image
         class="w-full h-full object-contain rounded-lg"
       />
     </div>
+  ) : (
+    <div class="bg-gray-200 rounded-lg h-24 w-24 shrink-0"></div>
   )}
   <div class="grow">
     <div class="font-bold mb-4">{item.title_fa}</div>
@@ -40,6 +42,8 @@ const imageSrcSet = item.image
         </div>
       ))}
     </div>
-    <div class="text-xs text-gray-800">محتویات: {item.ingredient}</div>
+    {item.ingredient && (
+      <div class="text-xs text-gray-800">محتویات: {item.ingredient}</div>
+    )}
   </div>
 </div>
